@@ -8,6 +8,13 @@
     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h2>
+    <% if course.image.present? %>
+      <div class="col-xs-12 col-sm-4 col-md-3">
+        <a href="#" class="thumbnail">
+          <%= image_tag course.image, class: 'img-responsive'%>
+        </a>
+        </div>
+  <% end %>
     <br />
     <div class="col-sm-8 col-xs-12">
       <%= course.description %>
