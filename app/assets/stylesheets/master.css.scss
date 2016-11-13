@@ -10,8 +10,8 @@
 }
 
 .navbar a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 200;
   font-size: 26px;
   color: purple;
 }
@@ -142,4 +142,9 @@ ul .header .glyphicon {
 
 .lessons li p {
   margin: 0;
+}
+
+.feature {
+  position: relative;
+  left: 50px;
 }
