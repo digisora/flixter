@@ -13,7 +13,7 @@
   font-family: 'Quicksand', sans-serif;
   font-weight: 200;
   font-size: 26px;
-  color: purple;
+  color: #330066;
 }
 
 .hero {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 body {
-  background: url('bg.jpg');
+  background-color: white;
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .lesson a {
   color: white;
-  font-family: "Helvetica Neue",Helvetica;
+  font-family: "Helvetica Neue", Helvetica;
   font-weight:100;
   font-size: 15px;
 }
@@ -147,4 +147,24 @@ ul .header .glyphicon {
 .feature {
   position: relative;
   left: 50px;
+}
+
+.row {
+  background-color: #f4f2f7;
+  padding: 20px;
+}
+.course-info {
+  color: black;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.description {
+  font-size: 25px;
+  font-weight: 150;
+}
+
+.label-primary {
+  background-color: #330066;
 }
