@@ -1,28 +1,15 @@
-== README
+== Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Ruby on Rails web application modeled after online course platforms such as Coursera and Udemy. This app was created during my time with The Firehose Project in order to demonstrate the following features:
 
-Things you may want to cover:
+* User authentication using the Devise gem
+* Online payment integration via Stripe
+* Image and video uploads hosted by AWS
+* Course creation with related sections containing lessons
+* Course enrollment and management
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Try it: https://flixter-jon-hia.herokuapp.com
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
