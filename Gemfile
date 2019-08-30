@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', ">= 3.4.1"
-gem 'sprockets', '2.11.3'
+gem 'sprockets', ">= 2.12.5"
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
