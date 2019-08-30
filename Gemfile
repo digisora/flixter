@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.21'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -26,15 +26,15 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
-gem 'bootstrap-sass', '~> 3.3.5.1'
-gem 'sprockets', '2.11.0'
+gem 'bootstrap-sass', ">= 3.4.1"
+gem 'sprockets', '2.11.3'
 gem 'simple_form'
 gem 'devise'
-gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
+gem 'carrierwave', '~> 1.0'
 gem 'figaro', '>= 1.0.0'
-gem 'fog'
-gem 'mini_magick', '~> 4.3.1'
-gem 'carrierwave-aws'
+gem "google-cloud-storage", "~> 1.8", require: false
+gem 'mini_magick', ">= 4.9.4"
+gem 'carrierwave-google-storage'
 gem 'stripe'
 gem 'ranked-model'
 gem 'jquery-ui-rails'

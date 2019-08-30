@@ -1,11 +1,16 @@
 CarrierWave.configure do |config|
-  config.storage    = :aws
-  config.aws_bucket = ENV["AWS_BUCKET"]
-  config.aws_acl    = "public-read"
-
-  config.aws_credentials = {
-      access_key_id:     ENV["AWS_ACCESS_KEY"],
-      secret_access_key: ENV["AWS_SECRET_KEY"],
-      region:            ENV["AWS_REGION"]
+  config.storage                             = :gcloud
+  config.gcloud_bucket                       = 'flixter'
+  config.gcloud_bucket_is_public             = true
+  config.gcloud_authenticated_url_expiration = 600
+  config.gcloud_content_disposition          = 
+  
+  config.gcloud_attributes = {
+    expires: 600
+  }
+  
+  config.gcloud_credentials = {
+    gcloud_project: 'flixter',
+    gcloud_keyfile: 'config/secrets/flixter.json'
   }
 end
