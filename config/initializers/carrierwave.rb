@@ -11,6 +11,6 @@ CarrierWave.configure do |config|
   
   config.gcloud_credentials = {
     gcloud_project: 'flixter',
-    gcloud_keyfile: => ENV['GOOGLE_APPLICATION_CREDENTIALS']
+    gcloud_keyfile: ENV['GOOGLE_APPLICATION_CREDENTIALS'].as_json
   }
 end
